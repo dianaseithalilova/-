@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?<span>family=</span><span>Roboto:ital@1</span><span>&</span>display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+    background-color: rgba(238, 239, 241, 1);
+    font-family: 'Roboto', sans-serif;
+}
+.header_menu{
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1105px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.index-navbar__link{
+    padding-left: 42px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 164.063%; /* 26.25px */
+    letter-spacing: 1.6px;
+}
+
+.select{
+    color: rgba(52, 84, 122, 1);
+}
+.main_content{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.index-main_content__img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.index-main_content__text{
+    max-width: 600px;
+}
+.index-title{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 164.063%; /* 78.75px */
+}
+.index-main__text{
+    margin-top: 60px;
+    color: #727272;
+    font-size: 16px;
+    line-height: 164.063%; /* 26.25px */
+}
+.index-button{
+    margin-top: 60px;
+    padding: 25px 44px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 164.063%; /* 26.25px */
+    letter-spacing: 1.6px;
+    background-color: #34547A;
+    border: none;
+}
+@media screen and (max-width: 992px) {
+.index-main_content{
+    align-items: center; 
+    padding-top: 130px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    }
+.index-main_content__text{
+    padding-top: 20px; 
+    max-width: 540px; 
+    text-align: center; 
+    padding-left: 0;
+    }
+.index-button{
+    margin-top: 20px; 
+    min-width: 200px; 
+    min-height: 55px;
+    }
+}
+@media screen and (max-width: 768px) {
+.container{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.navbar{
+    justify-content: center;
+    }
+}
